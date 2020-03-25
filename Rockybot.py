@@ -64,6 +64,12 @@ class widget(): # creating a class called widget
             robo.printing_func(out)
             robo.speaking_func(out)
 
+        elif 'can' in user_input:
+            r = random.randint(0,len(robo.can)-1)
+            out = robo.can[r]
+            robo.printing_func(out)
+            robo.speaking_func(out)
+
         elif 'hi' in user_input and 'how' in user_input:
             out='Hi i am good,how are you??'
             robo.printing_func(out)
