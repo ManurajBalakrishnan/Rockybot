@@ -1,3 +1,3 @@
-# manuraj0099-gmail.com
+# manu
 install pyttsx3,wikipedia package
 
