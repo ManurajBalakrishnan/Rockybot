@@ -63,7 +63,13 @@ class widget(): # creating a class called widget
             out="ok let me Introduce myself i am rocky i will be your assistant ... and i was created by Manuraj using python"
             robo.printing_func(out)
             robo.speaking_func(out)
+
+        elif 'hi' in user_input and 'how' in user_input:
+            out='Hi i am good,how are you??'
+            robo.printing_func(out)
+            robo.speaking_func(out)
 #name condition
+
         elif 'name' in user_input:
             r = random.randint(0,len(robo.name)-1)
             out = robo.name[r]
