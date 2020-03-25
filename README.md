@@ -1,2 +1,3 @@
 # manuraj0099-gmail.com
-bot 
+install pyttsx3,wikipedia package
+
